@@ -1,0 +1,21 @@
+{
+    "name": "Java Azure SQL Token Auth",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "vmware.vscode-spring-boot",
+                "redhat.vscode-xml"
+            ],
+            "settings": {
+                "java.configuration.updateBuildConfiguration": "automatic",
+                "java.compile.nullAnalysis.mode": "automatic",
+                "java.format.settings.url": ".vscode/java-formatter.xml"
+            }
+        }
+    },
+    "forwardPorts": [8080],
+    "postCreateCommand": "java -version && mvn --version",
+    "remoteUser": "vscode"
+}

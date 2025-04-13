@@ -1,0 +1,120 @@
+# IDE - Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# IDE - Visual Studio
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE - Eclipse
+.metadata
+.settings/
+.project
+.classpath
+.loadpath
+.recommenders
+*~.nib
+
+# .NET
+bin/
+obj/
+out/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Java
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+.spring-boot-devtools
+src/main/resources/application-*.properties
+!src/main/resources/application.properties
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Documentation
+*.md
+!README.md
+
+# Sensitive Configuration Files
+appsettings.Development.json
+appsettings.Production.json
+*.Development.json
+*.Production.json
+
+# Logs
+*.log
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Temporary Files
+*.swp
+*.*~
+*~
+*.bak
+tmp/
+*.tmp
+local.properties

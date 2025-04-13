@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{71E6E750-85FD-B5BC-4321-E01377EC6231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureSqlTokenAuth", "AzureSqlTokenAuth", "{D67FECAB-E472-50F3-D164-6746E363346D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CAFB7709-FD07-D350-BBB1-37AFAEE14A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSqlTokenAuth", "dotnet\AzureSqlTokenAuth\src\AzureSqlTokenAuth\AzureSqlTokenAuth.csproj", "{25640A0F-1E2F-6107-4B19-19871F5654F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25640A0F-1E2F-6107-4B19-19871F5654F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25640A0F-1E2F-6107-4B19-19871F5654F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25640A0F-1E2F-6107-4B19-19871F5654F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25640A0F-1E2F-6107-4B19-19871F5654F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D67FECAB-E472-50F3-D164-6746E363346D} = {71E6E750-85FD-B5BC-4321-E01377EC6231}
+		{CAFB7709-FD07-D350-BBB1-37AFAEE14A78} = {D67FECAB-E472-50F3-D164-6746E363346D}
+		{25640A0F-1E2F-6107-4B19-19871F5654F3} = {CAFB7709-FD07-D350-BBB1-37AFAEE14A78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8389CA6D-3197-47FC-B07F-17D2B94473AC}
+	EndGlobalSection
+EndGlobal

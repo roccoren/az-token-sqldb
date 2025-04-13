@@ -1,0 +1,21 @@
+{
+    "name": ".NET Azure SQL Token Auth",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csdevkit",
+                "ms-dotnettools.dotnet-interactive-vscode",
+                "ms-dotnettools.vscode-dotnet-runtime"
+            ],
+            "settings": {
+                "dotnet.defaultSolution": "AzureSqlTokenAuth.sln",
+                "csharp.format.enable": true,
+                "editor.formatOnSave": true
+            }
+        }
+    },
+    "forwardPorts": [5000, 5001],
+    "postCreateCommand": "dotnet restore && dotnet tool install --global dotnet-ef",
+    "remoteUser": "vscode"
+}
