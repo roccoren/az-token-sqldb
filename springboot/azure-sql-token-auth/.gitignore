@@ -64,7 +64,7 @@ local.properties
 
 # Application properties
 src/main/resources/application-*.properties
-!src/main/resources/application.properties
+src/main/resources/application.properties
 
 # OS specific
 .DS_Store
