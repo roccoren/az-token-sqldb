@@ -1,0 +1,21 @@
+# Azure AD Configuration
+azure.activedirectory.tenant-id=your-tenant-id
+azure.activedirectory.client-id=your-client-id
+azure.activedirectory.client-secret=your-client-secret
+
+# Azure SQL Database Configuration
+azure.sql.server-name=your-server-name.database.windows.net
+azure.sql.database-name=your-database-name
+azure.sql.token-refresh-interval=25
+
+# Connection Pool Configuration
+spring.datasource.hikari.maximum-pool-size=10
+spring.datasource.hikari.minimum-idle=5
+spring.datasource.hikari.idle-timeout=300000
+spring.datasource.hikari.connection-timeout=20000
+spring.datasource.hikari.max-lifetime=1200000
+
+# Logging Configuration
+logging.level.com.example.azuresqltoken=DEBUG
+logging.level.com.zaxxer.hikari=INFO
+logging.level.com.microsoft.sqlserver.jdbc=INFO
